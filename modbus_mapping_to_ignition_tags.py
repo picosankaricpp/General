@@ -65,7 +65,7 @@ def parse_modbus_mapping_file(filepath, device_name):
 
     return {"tags": tags}
 
-input_path = r"C:\Users\PSankari\OneDrive - Consolidated Precision Products-cppcorp\Projects\Water Wash Upgrade\ModBus Map.txt"  # Replace with your file
+input_path = r"your_path.txt"  # Replace with your file
 tags = parse_modbus_mapping_file(input_path, 'Invest: Water Wash PLC')
 
 
