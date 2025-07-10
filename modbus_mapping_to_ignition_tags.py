@@ -2,6 +2,9 @@ import xml.etree.ElementTree as ET
 import json
 
 def parse_modbus_mapping_file(filepath, device_name):
+    #args:
+    #filepath: path to file with modbus mappings exported from CCW
+    #device_name: name of device in Ignition
     with open(filepath, 'r') as file:
         content = file.read()
 
